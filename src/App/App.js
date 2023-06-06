@@ -2,6 +2,8 @@ import './App.css';
 import Nav from '../Nav/Nav';
 import { Component } from 'react';
 import {fetchQuotes} from '../apiCalls';
+import { Route } from 'react-router-dom/cjs/react-router-dom.min';
+import Quotes from '../Quotes/Quotes';
 
 class App extends Component {
   constructor() {
@@ -26,13 +28,23 @@ class App extends Component {
         });
       });
   };
+
+  addQuote = (newQuote) =>  {
+  this.setState({ quotes: [...this.state.quotes, newQuote] })
+  }
+
   render() {
     console.log(this.state.quotes)
     return (
     <>
       <Nav />
       <main className="App">
-      
+      <Route exact path="/" render={() => {
+        return(   
+          <Quotes quotes={this.state.quotes} addQuote={this.addQuote}/>  
+        )
+      }}/>
+      <Route exact path="/About"/>
       </main>
     </>
 

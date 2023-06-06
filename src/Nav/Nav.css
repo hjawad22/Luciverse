@@ -1,9 +1,33 @@
-.nav-container{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 1% 5%;
-border: 1px solid rgb(167, 164, 164);
-background-color: rgb(10, 10, 10);
-color: white;
+.nav-container {
+    display: flex;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-bottom: 0.2px solid rgba(254, 254, 254, 0.521);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.about:hover,
+.logo:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(178, 178, 178);
+}
+
+.about {
+    font-weight: 400;
+}
+
+.logo {
+    font-weight: 600;
 }

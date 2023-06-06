@@ -1,0 +1,35 @@
+input {
+    width: 25%;
+    border: 1px solid rgb(155, 151, 151);
+    border-radius: 25px;
+    padding: 0.5%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.add-button {
+    border: 1px solid rgb(110, 0, 0);
+    border-radius: 25px;
+    width: 15%;
+    background-color: rgb(110, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.add-button:hover {
+    background-color: rgb(168, 7, 7);
+}
+
+.form-text {
+    color: rgb(93, 93, 93);
+    padding-top: 2%;
+    font-weight: 500;
+}
