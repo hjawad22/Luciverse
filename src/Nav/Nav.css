@@ -1,0 +1,9 @@
+.nav-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1% 5%;
+border: 1px solid rgb(167, 164, 164);
+background-color: rgb(10, 10, 10);
+color: white;
+}
