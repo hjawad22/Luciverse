@@ -32,7 +32,7 @@ class App extends Component {
     <>
       <Nav />
       <main className="App">
-
+      
       </main>
     </>
 
