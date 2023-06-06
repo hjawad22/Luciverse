@@ -1,8 +1,16 @@
 import './App.css';
 import Nav from '../Nav/Nav'
+import { Component } from 'react';
 
-function App() {
-  return (
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      qoutes: []
+    }
+  }
+  render() {
+    return (
     <>
       <Nav />
       <main lassName="App">
@@ -11,6 +19,7 @@ function App() {
     </>
 
   );
+}
 }
 
 export default App;
