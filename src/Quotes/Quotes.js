@@ -4,7 +4,7 @@ import '../Quotes/Quotes.css'
 import Form from "../Form/Form";
 import propTypes from 'prop-types'
 
-const Quotes = ({ quotes, addQuote }) => {
+const Quotes = ({ quotes, addQuote, loading }) => {
     const quoteCards = quotes.map((quote, index) => {
         return (
             <Card
@@ -25,6 +25,7 @@ const Quotes = ({ quotes, addQuote }) => {
                 <h2 className="form-text">GOT A LUCIFIER QUOTE YOU DON'T SEE? ADD IT HERE, WE KNOW IT'S WHAT YOU TRULY DESIRE...</h2>
                 <Form addQuote={addQuote} />
             </div>
+            {loading && <p className="loading-message">Please wait, we are waiting on Lucifier to load the quotes...</p>}
             <article className="cards-container">
                 {quoteCards}
             </article>
@@ -36,7 +37,8 @@ const Quotes = ({ quotes, addQuote }) => {
 
 Quotes.prototype = {
     addQuote: propTypes.func.isRequired,
-    quotes: propTypes.arrayOf(propTypes.object).isRequired
+    quotes: propTypes.arrayOf(propTypes.object).isRequired,
+    loading: propTypes.string.isRequired
 }
 
 export default Quotes;

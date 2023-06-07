@@ -37,3 +37,11 @@
     width: 40%;
     margin-top: 8%;
 }
+
+.loading-message{
+    color: rgb(250, 250, 250);
+    font-size: large;
+    padding-left: 3%;
+  }
+  
+  
