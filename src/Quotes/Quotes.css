@@ -1,3 +1,5 @@
+/* Containers */
+
 .cards-container {
     padding: 3% 6%;
     display: grid;
@@ -17,6 +19,7 @@
     padding-left: 3%;
     width: 100%;
   }
+
 .form-container {
     height: 10%;
     width: 100%;
@@ -26,8 +29,11 @@
     background-color: rgb(255, 255, 255);
 }
 
+/* Text */
+
 .welcome-message {
-    color: rgb(110, 0, 0);
-    font: 5em s;
+    color: rgb(171, 20, 20);
+    font: 4rem s;
     width: 40%;
+    margin-top: 8%;
 }
