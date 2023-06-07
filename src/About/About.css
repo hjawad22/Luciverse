@@ -1,0 +1,12 @@
+.about-text{
+    color: rgb(0, 0, 0);
+    font-weight: 350;
+}
+
+.about-pg-container{
+margin-top:5%;
+border: 1px solid rgb(241, 241, 241);
+background-color: rgb(255, 255, 255);
+padding: 4%;
+
+}
