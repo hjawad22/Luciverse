@@ -22,7 +22,7 @@ const Quotes = ({ quotes, addQuote }) => {
                 <h1 className="welcome-message">Welcome To The LuciVerse.</h1>
             </article>
             <div className="form-container">
-                <h2 className="form-text">GOT A LUCIFIER QUOTE YOU DON'T SEE? ADD IT HERE WE KNOW IT'S WHAT YOU TRULY DESIRE...</h2>
+                <h2 className="form-text">GOT A LUCIFIER QUOTE YOU DON'T SEE? ADD IT HERE, WE KNOW IT'S WHAT YOU TRULY DESIRE...</h2>
                 <Form addQuote={addQuote} />
             </div>
             <article className="cards-container">
