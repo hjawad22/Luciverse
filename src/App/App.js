@@ -2,8 +2,10 @@ import './App.css';
 import Nav from '../Nav/Nav';
 import { Component } from 'react';
 import {fetchQuotes} from '../apiCalls';
-import { Route } from 'react-router-dom/cjs/react-router-dom.min';
+import { Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import Quotes from '../Quotes/Quotes';
+import About from '../About/About';
+import Errors from '../Errors/Errors';
 
 class App extends Component {
   constructor() {
@@ -34,22 +36,32 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.quotes)
+    console.log(this.state.quotes);
     return (
-    <>
-      <Nav />
-      <main className="App">
-      <Route exact path="/" render={() => {
-        return(          
-          <Quotes quotes={this.state.quotes} addQuote={this.addQuote} loading={this.state.loading}/>   
-        )
-      }}/>
-      <Route exact path="/About"/>
-      </main>
-    </>
-
-  );
+      <>
+        <Nav />
+        <main className="App">
+        <Switch>
+          <Route exact path="/" render={() => {
+            if(this.state.errorMessage) {
+              return (
+                <Errors errorMessage={this.state.errorMessage}/>
+              )
+            }
+            return (
+              <Quotes quotes={this.state.quotes} addQuote={this.addQuote} loading={this.state.loading} />
+            );
+          }} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="*" render={() => {
+            return (
+              <Errors errorMessage={this.errorMessage}/>
+            );
+          }} />
+        </Switch>
+        </main>
+      </>
+    );
+  }
 }
-}
-
-export default App;
+  export default App;
