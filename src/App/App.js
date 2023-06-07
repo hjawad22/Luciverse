@@ -40,8 +40,8 @@ class App extends Component {
       <Nav />
       <main className="App">
       <Route exact path="/" render={() => {
-        return(   
-          <Quotes quotes={this.state.quotes} addQuote={this.addQuote}/>  
+        return(          
+          <Quotes quotes={this.state.quotes} addQuote={this.addQuote} loading={this.state.loading}/>   
         )
       }}/>
       <Route exact path="/About"/>
