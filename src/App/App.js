@@ -55,7 +55,7 @@ class App extends Component {
           <Route exact path="/About" component={About} />
           <Route exact path="*" render={() => {
             return (
-              <Errors errorMessage={this.errorMessage}/>
+              <Errors errorMessage={this.state.errorMessage}/>
             );
           }} />
         </Switch>
