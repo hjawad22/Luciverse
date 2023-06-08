@@ -12,7 +12,7 @@ const Errors = ({errorMessage}) => {
         )
     } return (
         <div className='bad-path-container'>
-         <p className='error'>404 Page not Found</p>
+         <p className='error'>404 Page Not Found</p>
          <img className= "luci-img" src="https://variety.com/wp-content/uploads/2016/01/tom_ellis_lucifer.jpg?w=1000&h=563&crop=1" alt="Tom ellis looking up in a purple sweater"/>
          <NavLink to= '/'>
          <button className="back-home-button">Back Home</button>
