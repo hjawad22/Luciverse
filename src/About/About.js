@@ -1,5 +1,6 @@
 import React from "react";
 import '../About/About.css'
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
 const About = () => {
     return (
@@ -17,7 +18,11 @@ const About = () => {
         <p className="about-text">
           With its engaging storytelling and charismatic cast, "Lucifer" has become a popular series enjoyed by fans around the world. It has garnered a strong following and has been renewed for multiple seasons, captivating viewers with its mix of supernatural elements and compelling narratives.
         </p>
+        <NavLink to='/'>
+        <button className="back-button">Back To Hompage</button>
+        </NavLink>
       </article>
+      
  
     );
   }
