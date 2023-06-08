@@ -1,4 +1,6 @@
-.bad-path-container{
+/* Containers */
+
+.bad-path-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,16 +10,12 @@
     margin-top: 4%;
     padding: 3%;
 }
- 
-.luci-image{
-    width: 100px;
-    height: 100px;
-}
 
+/* Button */
 .back-home-button {
     border: 1px solid rgb(188, 18, 18);
     border-radius: 25px;
-    width:200px;
+    width: 200px;
     background-color: rgb(188, 18, 18);
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -25,7 +23,18 @@
     padding: 4%;
 }
 
-.error{
+.back-home-button:hover {
+    background-color: rgb(157, 9, 9);
+}
+
+/* Image */
+.luci-image {
+    width: 100px;
+    height: 100px;
+}
+
+/* Text */
+.error {
     margin: 1%;
     font-family: serif;
     color: rgb(99, 99, 99);
