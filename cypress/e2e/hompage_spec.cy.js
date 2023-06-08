@@ -53,5 +53,14 @@ describe('homepage spec', () => {
     .get(':nth-child(11) > .author').contains('Lucifier Morningstar')
   });
  
+  it('should display error loading message', () => {
+    cy.intercept("GET", "https://lucifer-quotes.vercel.app/api/quotes/10", {
+      delay: 5000, 
+      statusCode: 200,
+      fixture: "quotes"
+    });
+      cy.get('.loading-message') 
+      .should('be.visible');
+  });
 
 })
