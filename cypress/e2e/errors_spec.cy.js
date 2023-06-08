@@ -23,7 +23,7 @@ describe('Errors spec', () => {
       fixture: "quotes"
     });
     cy.visit('http://localhost:3000/24')
-      .get('.error').contains('404 Page not Found')
+      .get('.error').contains('404 Page Not Found')
       .get('.luci-img').should('be.visible')
       .get('.back-home-button')
       .click()
