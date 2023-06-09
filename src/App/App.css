@@ -1,3 +1,5 @@
+/* Containers */
+
 html, .App{
   height: 100%;
 }
@@ -8,5 +10,51 @@ html, .App{
   background-color: black;
 }
 
+.hero-image-container {
+  background-image: url('https://images.hdqwalls.com/wallpapers/lucifer-season-4-poster-ka.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 70%;
+  display: flex;
+  padding-left: 3%;
+  width: 100%;
+}
+
+.form-container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
 
 
+/* Text */
+.welcome-message {
+  color: rgb(171, 20, 20);
+  font: 4rem s;
+  width: 40%;
+  margin-top: 8%;
+}
+
+
+@media screen and (max-width: 802px ){
+
+  .welcome-message {
+      color: rgb(171, 20, 20);
+      font: 4rem s;
+      width: 40%;
+      margin-top: 13%;
+  }
+}
+
+@media screen and (max-width: 543px ){
+
+  .welcome-message {
+      color: rgb(171, 20, 20);
+      font: 4rem s;
+      width: 40%;
+      margin-top: 15%;
+  }
+}
