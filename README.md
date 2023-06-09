@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Lucifier
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Abstract
+This abstract highlights the key aspects of the LuciVerse App, which is developed specifically for fans of the TV show Lucifer. The app offers a dynamic and engaging experience, providing users with randomized quotes that are refreshed on each visit. Additionally, users have the ability to contribute their own quotes, reflecting the personalities of their favorite characters. The app also features an informative section that provides an overview of the show, enhancing users' understanding and connection to the series. The LuciVerse App aims to create an immersive platform for fans to explore, enjoy, and actively participate in the world of Lucifer.
 
-## Available Scripts
+## Illustrations
+![giff of luciVerse](https://media.giphy.com/media/paqWW7lNZypnr6YmTb/giphy.gif))
 
-In the project directory, you can run:
 
-### `npm start`
+## Context
+This application was completed over 5 days in Module3 (week 5) of [Turing School of Software and Design](https://turing.edu/)'s Front End Engineering program. The project was built to match the specifications of [this project rubric](https://frontend.turing.edu/projects/module-3/showcase.html)).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies used
+- React
+- Router
+- Cypress
+- PropTypes
+- CSS
+- JSX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Deployed Pages
+- Frontend Coming soon 
 
-### `npm test`
+## Wins
+Responsive Design: Successfully incorporated media queries to ensure that the app is visually appealing and functional across different devices and screen sizes. The implementation of responsive design allows users to have a seamless experience regardless of the device they are using.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Organization: Maintained a well-organized project structure, including proper file organization, clear naming conventions, and logical separation of components. This approach contributes to efficient development and easier maintenance of the app.
 
-### `npm run build`
+## Challenges
+Cypress Testing: Implementing effective Cypress tests posed challenges during the development process. Overcoming issues such as writing comprehensive test cases and dealing with complex interactions required careful planning and debugging. However, by persevering through these challenges, I was able to achieve a robust and reliable testing framework, ensuring the app's quality and stability.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Improvements
+Going forward, some ideal extensions would be: 
+  -  A search feature can be implemented to allow users to search quotes by author.
+  -  An additional feature of favoriting quotes can be implemented.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
+- using the terminal, clone the [Repo](https://github.com/hjawad22/luciverse)
+- `cd` into luciVerse directory
+- run `npm i`
+- run `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+- Houda Jawad - [GitHub](https://github.com/hjawad22) | [LinkedIn](https://www.linkedin.com/in/houda-jawad-b0315675/)
