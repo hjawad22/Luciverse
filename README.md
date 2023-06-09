@@ -19,7 +19,7 @@ This application was completed over 5 days in Module3 (week 5) of [Turing School
 - JSX
 
 ## Deployed Pages
-- Frontend Coming soon 
+[Check it out here ](https://luciverse.vercel.app/)
 
 ## Wins
 Responsive Design: Successfully incorporated media queries to ensure that the app is visually appealing and functional across different devices and screen sizes. The implementation of responsive design allows users to have a seamless experience regardless of the device they are using.
