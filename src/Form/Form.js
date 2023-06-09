@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import propTypes from 'prop-types'
-import './Form.css';
+import React, { Component } from "react";
+import propTypes from "prop-types"
+import "./Form.css";
 
 
 class Form extends Component {
@@ -44,33 +44,33 @@ class Form extends Component {
                 {this.state.error && <p className="error-message">{this.state.error}</p>}
                 <form>
                     <input
-                        type='text'
-                        className='input'
-                        placeholder='what is the quote?'
-                        name='quote'
+                        type="text"
+                        className="input"
+                        placeholder="what is the quote?"
+                        name="quote"
                         value={this.state.quote}
                         onChange={event => this.handleChange(event)}
                     />
 
                     <input
-                        type='text'
-                        className='input'
-                        placeholder='who would say it?'
-                        name='author'
+                        type="text"
+                        className="input"
+                        placeholder="who would say it?"
+                        name="author"
                         value={this.state.author}
                         onChange={event => this.handleChange(event)}
                     />
 
-                    <button className='add-button' onClick={event => this.submitQuote(event)}>ADD</button>
+                    <button className="add-button" onClick={event => this.submitQuote(event)}>ADD</button>
                 </form>
             </>
         );
-    }
-}
+    };
+};
+
+export default Form;
 
 Form.propTypes = {
     addQuote: propTypes.func.isRequired
 };
-
-export default Form;
 
