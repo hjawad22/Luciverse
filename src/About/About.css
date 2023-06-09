@@ -31,3 +31,25 @@
 .back-button:hover {
     background-color: rgb(157, 9, 9);
 }
+
+@media screen and (max-width: 673px ){
+    .about-pg-container {
+        margin-top: 8%;
+    }
+
+    .back-button {
+        padding: 2%;
+    }
+    
+}
+
+
+@media screen and (max-width: 400px ){
+    .about-pg-container {
+        margin-top: 13%;
+    } 
+
+    .back-button {
+        padding: 3%;
+    }
+}

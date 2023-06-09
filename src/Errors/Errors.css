@@ -19,7 +19,7 @@
     background-color: rgb(188, 18, 18);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    margin-top: 7%;
+    margin-top: 10%;
     padding: 4%;
 }
 
@@ -28,15 +28,25 @@
 }
 
 /* Image */
-.luci-image {
-    width: 100px;
-    height: 100px;
+.luci-img {
+    width: 45%;
 }
 
 /* Text */
 .error {
-    margin: 1%;
     font-family: serif;
     color: rgb(99, 99, 99);
     font-size: xx-large
 }
+
+@media screen and (max-width: 937px ){
+   .luci-img {
+    width: 60%;
+   }
+}
+
+@media screen and (max-width: 523px ){
+    .error{
+       padding-top: 5%;
+    }
+ }

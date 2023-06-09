@@ -44,4 +44,32 @@
     padding-left: 3%;
   }
   
+  @media screen and (max-width: 802px ){
+    .cards-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .welcome-message {
+        color: rgb(171, 20, 20);
+        font: 4rem s;
+        width: 40%;
+        margin-top: 13%;
+    }
+  }
+
+  @media screen and (max-width: 543px ){
+    .cards-container{
+        padding: 6% 6%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .welcome-message {
+        color: rgb(171, 20, 20);
+        font: 4rem s;
+        width: 40%;
+        margin-top: 15%;
+    }
+  }
+  
   
